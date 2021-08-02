@@ -50,7 +50,6 @@ def scissor():
 rocks = tk.Button(root, text="Rock", padx=40, pady=20, bg="Black", fg="Blue", command=lambda: rock())
 papers = tk.Button(root, text="Paper", padx=40, pady=20, bg="Black", fg="Blue", command=lambda: paper())
 scissors = tk.Button(root, text="Scissor", padx=40, pady=20, bg="Black", fg="Blue", command=lambda: scissor())
-scissors.grid(row=0, column=3)
 
 # Placing the buttons on the screen
 rocks.grid(row=0, column=1)
